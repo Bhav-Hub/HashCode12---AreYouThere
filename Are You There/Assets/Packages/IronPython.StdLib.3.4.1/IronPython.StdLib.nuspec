@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>IronPython.StdLib</id>
+    <version>3.4.1</version>
+    <title>IronPython Standard Library</title>
+    <authors>IronPython Contributors, Python Contributors</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">StdLib.License.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>logo.png</icon>
+    <projectUrl>https://ironpython.net/</projectUrl>
+    <description>The Python Standard Library, for use with IronPython.</description>
+    <copyright>© IronPython Contributors</copyright>
+    <language>en-US</language>
+    <tags>ironpython python dynamic dlr standard library</tags>
+    <dependencies>
+      <dependency id="IronPython" version="[3.4.0, 3.5.0)" />
+    </dependencies>
+    <contentFiles>
+      <files include="**\*" buildAction="None" copyToOutput="true" />
+    </contentFiles>
+  </metadata>
+</package>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Google.LongRunning</id>
+    <version>3.0.0</version>
+    <authors>Google LLC</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>NuGetIcon.png</icon>
+    <projectUrl>https://github.com/googleapis/google-cloud-dotnet</projectUrl>
+    <iconUrl>https://cloud.google.com/images/gcp-icon-64x64.png</iconUrl>
+    <description>gRPC services for the Google Long Running Operations API. This library is typically used as a dependency for other API client libraries.</description>
+    <copyright>Copyright 2022 Google LLC</copyright>
+    <tags>LongRunning Google Cloud</tags>
+    <repository type="git" url="https://github.com/googleapis/google-cloud-dotnet" commit="abf311d7d0649ce9e47aac5c9bae36cb75a5a218" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Google.Api.Gax.Grpc" version="[4.0.0, 5.0.0)" exclude="Build,Analyzers" />
+        <dependency id="Grpc.Core" version="[2.46.3, 3.0.0)" include="All" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Google.Api.Gax.Grpc" version="[4.0.0, 5.0.0)" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
