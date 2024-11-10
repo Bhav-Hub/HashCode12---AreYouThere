@@ -25,7 +25,7 @@ public class FlaskClientCS : MonoBehaviour
         public string Transcription;
     }
 
-    string url = "http://192.168.56.1:5000/transcribe"; // Replace with your Flask server URL
+    string url = "<ipaddress>/transcribe"; // Replace with your Flask server URL
 
     public IEnumerator TranscribeAudio(string audioPath, Action callback)
     {
